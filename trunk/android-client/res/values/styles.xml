@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2011 Google Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <style name="PolicyTable">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textAppearance">@style/TextAppearance.Readonly</item>
+    </style>
+    <style name="PolicyTable.Name">
+        <item name="android:paddingLeft">15dip</item>
+    </style>
+    <style name="PolicyTable.Value">
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:minWidth">80dp</item>
+    </style>
+    <style name="PolicyTable.Status">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">20dip</item>
+    </style>
+    <style name="TextAppearance" parent="android:TextAppearance" />
+    <style name="TextAppearance.Readonly">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/app_text</item>
+    </style>
+    <style name="TextAppearance.Button">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="AppTheme.Light" parent="android:style/Theme.Holo.Light">
+        <item name="android:background">@color/app_background</item>
+    </style>
+</resources>

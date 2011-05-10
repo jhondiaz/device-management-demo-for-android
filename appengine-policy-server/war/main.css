@@ -1,0 +1,68 @@
+body {
+  font-family: 'Droid Sans', serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #373735; 
+}
+
+.input {
+  border: 1px solid #a4c639;
+  font-size: 18px;
+  width: 170px;
+  background: #f3fef0;
+  padding: 3px;
+}
+
+#top {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+#updateMessage {
+  font-size: 14px;
+  margin: auto;
+  width: 400px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-style: italic;
+  color: #595959;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#loginLinks {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+select.pwtype {
+  border:1px solid #a4c639; background: #f3fef0;
+  width: 170px;
+}
+
+#policyForm, #adminForm {
+  position: relative;
+  border: 2px solid #a4c639;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+#pushMessage {
+  width: 440px;
+  font-size: 14px;
+  margin: auto;
+}	
+
+select, .desc {
+  font-size: 18px;
+}
+
+.descCol {
+  width: 200px;
+}

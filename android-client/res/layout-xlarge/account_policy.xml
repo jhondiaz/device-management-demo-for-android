@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2011 Google Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="60dip"
+    android:paddingLeft="100dip"
+    android:paddingRight="100dip" >
+    <TextView android:id="@+id/selected_account"
+        style="@style/TextAppearance.Readonly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_account"
+        android:layout_margin="5dip"/>	
+    <TextView android:id="@+id/account_name"
+        style="@style/TextAppearance.Readonly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selected_account"
+        android:layout_marginLeft="5dip"
+        android:paddingBottom="10dip" />
+
+    <include android:id="@+id/policy_content"
+    	layout="@layout/policy_content" />
+        
+    <include android:id="@+id/setup_progress"
+        layout="@layout/setup_progress_image" />
+
+    <ProgressBar android:id="@+id/progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/control_buttons"
+		android:paddingBottom="15dip"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="true"
+        android:visibility="invisible"/>
+
+    <TextView android:id="@+id/status_text"
+        style="@style/TextAppearance.Readonly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_above="@+id/progress_bar"
+        android:visibility="invisible"/>
+
+	<!-- Control and Navigation buttons -->        
+	<include android:id="@+id/control_buttons"
+	    layout="@layout/control_buttons" /> 
+</RelativeLayout>

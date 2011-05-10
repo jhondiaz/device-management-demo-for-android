@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2011 Google Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <string name="security_policy">Account security policy</string>
+    <string name="activate">Activate!</string>
+    <string name="activate_text">Click to active device administrator.</string>
+    <string name="activated">Activated</string>
+    <string name="app_name">Device Management for Android Demo</string>
+    <string name="back">Back</string>
+    <string name="click_next_text">Click Next to connect and fetch the security policy associated with the user from the admin server.</string>
+    <string name="click_sync_policy_text">Click to synchronize policy.</string>
+    <string name="deactivated">Deactivated</string>
+    <string name="device_admin_activate_explain">Choose Activate to begin enforcing %1$s\'s security policy</string>
+    <string name="device_secured">Device secured.</string>
+    <string name="encrypt_text">Req\'d Encryption:</string>
+    <string name="enforce_pw_text">Click to enforce password policies.</string>
+    <string name="enforce_pw">Enforce PW</string>
+    <string name="exit">Exit</string>
+    <string name="intro_text">This app demonstrates how to protect sensitive app content by enforcing a proper screen-lock password.&lt;p/&gt;Before getting started, be sure to set up a demo security policy at: &lt;a href=&quot;https://android-dm-demo.appspot.com/&quot;&gt;android-dm-demo.appspot.com/&lt;/a&gt;&lt;p/&gt;&lt;p/&gt;</string>
+    <string name="na">N/A</string>
+    <string name="next">Next</string>
+    <string name="no_accounts">No proper accounts are found on this device.</string>
+    <string name="offline_mode">Plan \'B\'</string>
+    <string name="offline_mode_on">Plan \'B\' activated!</string>
+    <string name="online_mode">Online</string>
+    <string name="online_mode_on">Online mode on.</string>
+    <string name="password_length_text">Req\'d Password Length:</string>
+    <string name="password_type_text">Req\'d Password Type:</string>
+    <string name="policy_error">Error in retrieving policy.</string>
+    <string name="policy_parse_error">Unable to parse retrieved policy.</string>
+    <string name="process_lock">Processing device lock.</string>
+    <string name="process_policy_sync">Processing policy sync.</string>
+    <string name="push_reg_ok">C2DM Device registration OK.</string>
+    <string name="push_reg_failed">C2DM Device registration failed.</string>
+    <string name="reg_push">Register C2DM</string>
+    <string name="remote_lock_text">Remote Lockable:</string>
+    <string name="reset_demo_app">Reset DM Demo</string>
+    <string name="select_account_text">Select an account to use:</string>
+    <string name="selected_account">Selected account: </string>    
+    <string name="sync_policy">Sync Policy</string>
+    <string name="syncing_text">Synchronizing...</string>    
+    <string name="updated_policy">Policy updated successfully.</string>
+    <string name="user_no_policy">Selected user does not have a policy.</string>
+</resources>
